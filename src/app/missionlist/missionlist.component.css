@@ -1,0 +1,61 @@
+.mission_list {
+    list-style-type: none;
+    width: 70vw;
+    margin: auto;
+}
+
+.mission {
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mission_patch_small {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.right {
+    flex: 1;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.filter{
+    border: white solid 1px;
+    border-radius: 2px;
+    background-color: bisque;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding: 2px;
+}
+
+.filter-window{
+    width: 100px;
+    flex: 1;
+    padding: 10px;
+    background-color: lightgray;
+    height: fit-content;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.list-page {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+

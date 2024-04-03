@@ -1,0 +1,32 @@
+.mission_detail{
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 70vw;
+    margin: auto;
+}
+
+.mission_patch {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+h3{
+    color:coral;
+}
+
+.mission_detail_up {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mission_detail_bottom{
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}

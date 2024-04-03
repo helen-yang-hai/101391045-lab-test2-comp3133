@@ -1,0 +1,26 @@
+<h2>SpaceX Mission Details</h2>
+<div class="mission_detail">
+    <div class="mission_detail_up">
+        <img class='mission_patch' src="{{mission.links.mission_patch}}" alt="mission_patch: {{mission.mission_name}}"/>
+        <div class="right">
+            <h3>Mission - {{mission.mission_name}}</h3>
+            <p>Name: {{mission.mission_name}}</p>
+            <p>Launch Year: {{mission.launch_year}}</p>
+            <h3>Rocket</h3>
+            <p>Name: {{mission.rocket.rocket_name}}</p>
+            <p>Type: {{mission.rocket.rocket_type}}</p>
+            <h3>Launch Site</h3>
+            <p>Name: {{mission.launch_site.site_name_long}}</p>
+        </div>
+    </div>
+    <div class="mission_detail_bottom">
+        <h3>Launch Details</h3>
+        <p>{{mission.details}}</p>
+    </div> 
+</div>
+
+
+
+
+
+

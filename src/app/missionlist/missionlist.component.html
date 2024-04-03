@@ -1,0 +1,34 @@
+<h2>SpaceX Mission Launch List</h2>
+<div class="list-page">
+    <div class="filter-window">
+        <p>Launch Year</p>
+        <ul>
+            <li *ngFor="let launch_year of launch_years"  class="filter">
+                <p (click)="onSelectedYear(launch_year)">{{launch_year}}</p>
+            </li>
+        </ul>
+        <p>Successful Launch</p>
+        <ul>
+            <li class="filter">
+                <p>True</p>
+            </li>
+            <li class="filter">
+                <p>False</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="list-window">
+        <ul class="mission_list">
+            <li *ngFor="let mission of missions" class="mission">
+                <img class='mission_patch_small' src="{{mission.links.mission_patch_small}}" alt="mission_patch_small: {{mission.mission_name}}"/>
+                <div class="right">
+                    <h3 class="mission_name">Mission Name: {{mission.mission_name}}</h3>
+                    <p class="mission_name">Launch Year: {{mission.launch_year}}</p>
+                    <p class="mission_name">Details: {{mission.details}}</p>
+                    <button type="button" (click)="onSelect(mission)">Select</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
